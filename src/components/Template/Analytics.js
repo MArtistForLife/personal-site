@@ -9,16 +9,16 @@ if (NODE_ENV === 'production') {
 }
 
 const Analytics = () => {
-  // const { pathname } = useLocation();
+  const { pathname } = useLocation();
 
-  // useEffect(() => {
-  //   if (NODE_ENV === 'production') {
-  //     ReactGA.set({
-  //       page: pathname,
-  //     });
-  //     ReactGA.pageview(pathname);
-  //   }
-  // }, [pathname]);
+  useEffect(() => {
+    if (NODE_ENV === 'production') {
+      ReactGA.set({
+        page: pathname,
+      });
+      ReactGA.pageview(pathname);
+    }
+  }, [pathname]);
 
   return null;
 };
