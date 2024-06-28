@@ -1,7 +1,7 @@
 const routes = [
   {
     index: true,
-    label: "Michael D'Angelo",
+    label: 'Maia Ann Talbert',
     path: '/',
   },
   {
@@ -19,6 +19,10 @@ const routes = [
   {
     label: 'Stats',
     path: '/stats',
+  },
+  {
+    label: 'Gallery',
+    path: '/gallery',
   },
   {
     label: 'Contact',
