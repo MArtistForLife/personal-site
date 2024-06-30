@@ -63,3 +63,22 @@
     font-size: 1em;
     color: #555;
 }
+.card-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card-icon {
+    width: 10px;
+    /* Adjust the size as needed */
+    height: auto;
+    transition: transform 0.3s;
+    filter: invert(100%);
+
+}
+
+.card-link:hover .card-icon {
+    transform: scale(1.1);
+}

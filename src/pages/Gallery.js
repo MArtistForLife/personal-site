@@ -8,8 +8,7 @@ const Gallery = () => (
     <article className="post-card" id="gallery">
       <header>
         <div className="title">
-          <h2 data-testid="heading">Gallery</h2>
-          <p>Some of my favorite photos and memories</p>
+          <h2 data-testid="heading">Sketch Card Art</h2>
         </div>
       </header>
       {data.map((photo) => (

@@ -34,7 +34,7 @@
 }
 
 .card-img-top {
-    width: 20%;
+    width: 60%;
     /* Makes the image fill the container width */
     height: auto;
     /* Keeps the image aspect ratio */
@@ -48,7 +48,7 @@
 }
 
 // .card-title,
-// .card-text {
-//     margin: 0;
-//     /* Removes default margins */
-// }
+.card-text {
+    margin: 0;
+    /* Removes default margins */
+}

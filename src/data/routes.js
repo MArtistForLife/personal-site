@@ -8,20 +8,20 @@ const routes = [
     label: 'About',
     path: '/about',
   },
+  // {
+  //   label: 'Resume',
+  //   path: '/resume',
+  // },
+  // {
+  //   label: 'Projects',
+  //   path: '/projects',
+  // },
+  // {
+  //   label: 'Stats',
+  //   path: '/stats',
+  // },
   {
-    label: 'Resume',
-    path: '/resume',
-  },
-  {
-    label: 'Projects',
-    path: '/projects',
-  },
-  {
-    label: 'Stats',
-    path: '/stats',
-  },
-  {
-    label: 'Gallery',
+    label: 'Sketch Card Art',
     path: '/gallery',
   },
   {
