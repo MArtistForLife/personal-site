@@ -7,7 +7,9 @@ const PhotoCard = ({ data }) => (
     <div className="card-body">
       <h5 className="card-title">{data.caption}</h5>
       <p className="card-text">Price: ${data.price}</p>
-      <img src={`${process.env.PUBLIC_URL}/images/functionIcon/ebayCart.png`} alt="eBay Cart" className="card-icon" />
+      <a href={data.ebayLink} className="card-link">
+        <img src={`${process.env.PUBLIC_URL}/images/functionIcon/ebayCart.png`} alt="eBay Cart" className="card-icon" />
+      </a>
     </div>
   </div>
 );
